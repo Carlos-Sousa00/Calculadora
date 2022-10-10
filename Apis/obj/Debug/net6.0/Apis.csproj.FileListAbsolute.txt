@@ -1,0 +1,15 @@
+B:\Projetos\Apis\bin\Debug\net6.0\Apis.exe
+B:\Projetos\Apis\bin\Debug\net6.0\Apis.deps.json
+B:\Projetos\Apis\bin\Debug\net6.0\Apis.runtimeconfig.json
+B:\Projetos\Apis\bin\Debug\net6.0\Apis.dll
+B:\Projetos\Apis\bin\Debug\net6.0\Apis.pdb
+B:\Projetos\Apis\obj\Debug\net6.0\Apis.csproj.AssemblyReference.cache
+B:\Projetos\Apis\obj\Debug\net6.0\Apis.GeneratedMSBuildEditorConfig.editorconfig
+B:\Projetos\Apis\obj\Debug\net6.0\Apis.AssemblyInfoInputs.cache
+B:\Projetos\Apis\obj\Debug\net6.0\Apis.AssemblyInfo.cs
+B:\Projetos\Apis\obj\Debug\net6.0\Apis.csproj.CoreCompileInputs.cache
+B:\Projetos\Apis\obj\Debug\net6.0\Apis.dll
+B:\Projetos\Apis\obj\Debug\net6.0\refint\Apis.dll
+B:\Projetos\Apis\obj\Debug\net6.0\Apis.pdb
+B:\Projetos\Apis\obj\Debug\net6.0\Apis.genruntimeconfig.cache
+B:\Projetos\Apis\obj\Debug\net6.0\ref\Apis.dll
