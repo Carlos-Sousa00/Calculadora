@@ -22,7 +22,7 @@ namespace Apis
         Console.WriteLine (real);
         inteiro = (int)real;
         Console.WriteLine(inteiro);
-<<<<<<< HEAD
+
         string valorReal = real.ToString();
         //inteiro = int.Parse(real.ToString()); // ou inteiro = int.Parse(valorReal);
         Console.WriteLine(inteiro);
@@ -31,6 +31,7 @@ namespace Apis
         inteiro = Convert.ToInt32(real);
         Console.WriteLine(inteiro);
         ArgIterator VAI
+
         }
     }
 }
