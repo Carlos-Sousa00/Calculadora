@@ -22,7 +22,7 @@ namespace Apis
         Console.WriteLine (real);
         inteiro = (int)real;
         Console.WriteLine(inteiro);
-        fsfaf
+        
         }
     }
 }
