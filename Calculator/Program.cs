@@ -6,7 +6,7 @@ namespace Calculator
     {
         static void Main (string [] args)
         {
-            System.Console.Clear();
+            Console.Clear();
             Console.WriteLine("Primeiro valor: ");
             float v1 = float.Parse(Console.ReadLine());
 
@@ -15,11 +15,9 @@ namespace Calculator
 
             Console.WriteLine("");
 
-            float resultado = v1 + v2;
-
-            Console.WriteLine("O resultado a soma é ");
-            Console.WriteLine(resultado);
-
+            //INTERPOLAÇÃO DE STRING           
+            Console.WriteLine($"O resultado a soma é {v1 + v2}");
+           
         }
     }
 }
