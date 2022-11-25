@@ -25,7 +25,8 @@ namespace Apis
 
         var arr = new string [2];
         arr [0] = "Item 1";
-        var arr2 = arr;
+        var arr2 = new string [2];
+        arr2= arr;
 
         Console.WriteLine(arr[0]);
         Console.WriteLine(arr2[0]);
