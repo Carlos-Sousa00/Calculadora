@@ -22,7 +22,20 @@ namespace Calculator
             Console.WriteLine("5 - Sair");
             Console.WriteLine("---------------------");
             Console.WriteLine("Selecione uma opção: ");
-                short result = short.Parse(Console.ReadLine());
+            short result = short.Parse(Console.ReadLine());
+            short count = 0;
+            while (result > 5 || result<1)
+            {   
+                Console.WriteLine("Por favor, digite uma opção valida");
+                result = short.Parse(Console.ReadLine());
+                count++;
+                if (count == 5)
+                {
+                    Console.WriteLine("Número de tentativas excedidas");
+                    System.Environment.Exit(0);
+                }
+            }
+
             switch (result){
                 case 1:
                     Soma();
