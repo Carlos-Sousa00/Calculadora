@@ -6,10 +6,42 @@ namespace Calculator
     {
         static void Main (string [] args)
         {
-            Subtracao();
+            Menu();
            
         }
+        static void Menu()
+        {
+            Console.Clear();
 
+            Console.WriteLine("Opções possíveis");
+            Console.WriteLine("");
+            Console.WriteLine("1 - Soma");
+            Console.WriteLine("2 - Subtração");
+            Console.WriteLine("3 - Divisão");
+            Console.WriteLine("4 - Multiplicação");
+            Console.WriteLine("5 - Sair");
+            Console.WriteLine("---------------------");
+            Console.WriteLine("Selecione uma opção: ");
+                short result = short.Parse(Console.ReadLine());
+            switch (result){
+                case 1:
+                    Soma();
+                    break;
+                case 2:
+                    Subtracao();
+                    break;
+                case 3:
+                    Divisao();
+                    break;
+                case 4:
+                    Multiplicacao();
+                    break;
+                case 5: System.Environment.Exit(0);
+                    break;
+                default: Menu(); break;
+
+            }
+        }
         static void Soma(){
 
             Console.Clear();
@@ -26,6 +58,7 @@ namespace Calculator
             Console.WriteLine($"O resultado a soma é {v1 + v2}");
 
             Console.ReadKey();
+            Menu();
         }
 
         static void Subtracao(){
@@ -42,6 +75,7 @@ namespace Calculator
             Console.WriteLine($"O resultado da subtração é {v1-v2}");
 
             Console.ReadKey();
+            Menu();
         }
 
         static void Divisao(){
@@ -59,6 +93,7 @@ namespace Calculator
             Console.WriteLine($"O valor da divisão é {v1/v2}");
 
             Console.ReadKey();
+            Menu();
         }
 
         static void Multiplicacao(){
@@ -75,6 +110,7 @@ namespace Calculator
             float resultado = v1 * v2;
             Console.WriteLine($"O resultado da multiplicação é {resultado}");
             Console.ReadKey();
+            Menu();
         }
     }
 }
