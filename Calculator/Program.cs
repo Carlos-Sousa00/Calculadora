@@ -1,5 +1,5 @@
 ﻿using System;
-//
+
 namespace Calculator
 {
     class Program
@@ -97,7 +97,7 @@ namespace Calculator
 
             Console.WriteLine("Primeiro valor:");
             float v1 = float.Parse(Console.ReadLine());
-
+//
             Console.WriteLine("Segundo valor:");
             float v2 = float.Parse(Console.ReadLine());
 
